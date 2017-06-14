@@ -1,7 +1,7 @@
-all: test
+all: kek
 
-test:
-	g++ -ggdb `pkg-config --cflags --libs opencv` ./test.cpp -o test
+kek:
+	g++ -ggdb `pkg-config --cflags --libs opencv` ./kek.cpp -o kek
 
 clean:
-	rm test
+	rm -f kek
